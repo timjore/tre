@@ -1,0 +1,20 @@
+@import '~antd/dist/antd.css';
+
+.site-card-border-less-wrapper {
+  padding: 30px;
+  background: #ececec;
+}
+
+.repository {
+  width: 700px;
+  display: inline-block;
+  margin: auto;
+}
+
+.ant-card-meta-detail {
+  width: 100%;
+}
+
+.ant-statistic-content {
+  font-size: 1.4em;
+}
