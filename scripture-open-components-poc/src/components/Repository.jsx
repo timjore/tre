@@ -18,8 +18,8 @@ export default function Repository ({
       key={name}
       className="repository"
       actions={[
-        <Statistic title="Webpage" value=" " prefix={<a href={homepageUrl}><HomeOutlined /></a>} />,
-        <Statistic title="Repository" value=" " prefix={<a href={url}><GithubOutlined /></a>} />,
+        <Statistic title="Webpage" value=" " prefix={<a href={homepageUrl} target="_blank" rel="noreferrer"><HomeOutlined /></a>} />,
+        <Statistic title="Repository" value=" " prefix={<a href={url} target="_blank" rel="noreferrer"><GithubOutlined /></a>} />,
         <Statistic title="Forks" value={forks} prefix={<ForkOutlined />} />,
         <Statistic title="Stargazers" value={stargazerCount} prefix={<StarOutlined />} />,
         <Statistic title="Watchers" value={watchers} prefix={<EyeOutlined />} />
